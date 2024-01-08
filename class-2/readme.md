@@ -154,4 +154,61 @@ x = 10
 
 # Floating-point number
 y = 3.14
+
+
+
+[//]: # (Decimals.md)
+
+<h2>Decimals</h2>
+<p>Decimals are a data type that represent decimal numbers with a fixed number of digits after the decimal point. They provide precise decimal arithmetic in Python.</p>
+
+<h3>Definition</h3>
+<p>Decimals are a data type in Python that represents decimal numbers with a fixed number of digits after the decimal point.</p>
+
+<h3>Examples in Python</h3>
+
+<pre><code>from decimal import Decimal
+
+# Decimal number
+x = Decimal('3.14159')
+
+# Perform calculations with decimals
+result = x + Decimal('2.5')
+</code></pre>
+
+[//]: # (Complex.md)
+
+<h2>Complex</h2>
+<p>Complex numbers are a data type that represent numbers with both real and imaginary parts. They are commonly used in mathematical and scientific calculations.</p>
+
+<h3>Definition</h3>
+<p>Complex numbers are a data type in Python that represent numbers with both real and imaginary parts.</p>
+
+<h3>Examples in Python</h3>
+
+<pre><code># Complex number
+x = 2 + 3j
+
+# Perform calculations with complex numbers
+result = x * (1 + 2j)
+</code></pre>
+
+[//]: # (Sequences.md)
+
+<h2>Sequences</h2>
+<p>Sequences are data types in Python that represent ordered collections of elements. Common sequence types include lists, tuples, and strings.</p>
+
+<h3>Definition</h3>
+<p>Sequences are data types in Python that represent ordered collections of elements.</p>
+
+<h3>Examples in Python</h3>
+
+<pre><code># List
+my_list = [1, 2, 3, 4, 5]
+
+# Tuple
+my_tuple = (1, 'a', True)
+
+# String
+my_string = "Hello, World!"
 </code></pre>
